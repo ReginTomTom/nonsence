@@ -19,7 +19,9 @@ void printArray(int *pArray)
 void main(void)
 {
     int myArray[10];
+    int myInt;
 
     setupArray(myArray);
     printArray(myArray);
+    printArray(&myInt);
 }
